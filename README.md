@@ -17,7 +17,7 @@ The function has the following conversion specifies:
 + %x - print hexadecimal numbers in lowercase
 + %X - print hexadecimal numbers in uppercase
 + %o - print octal numbers
-+ %r - prints string in reverse order 
++ %r - prints string in reverse order
 + %R - prints string in ROT13 encoding
 + %p - print pointer addresses
 + ' ' - print a space
@@ -28,7 +28,7 @@ The function has the following conversion specifies:
 ## Installation
  you can clone this repository  and use the function on your local machine.
 
-```bash 
+```bash
 git clone https://github.com/dev-ted/printf.git
 ```
 
@@ -40,7 +40,7 @@ To add the man\_3\_prinf page to your mandb run this script
 sudo ./install
 ```
 
-# Usage
+## Usage
 + include the `main.h ` header file on the function for using _printf().
 + All the files are to be compiled on Ubuntu 14.04 LTS
 ```bash
@@ -50,6 +50,12 @@ Compile your code with `gcc -Wall -Werror -Wextra -pedantic *.c`
 ```c
 #include <stdio.h>
 #include "main.h"
+
+/**
+/* main - prints values
+/*
+/* Return: 0 (Success)
+*/
 
 int main(void)
 {
@@ -66,7 +72,7 @@ int main(void)
 ```
 
 ## Copyright
-Copyright (c) 2022 Theodora Addeafi Gyambrah Emmanuel Ayarma Jnr
+Copyright (c) 2022 Theodora Addeafi Gyambrah and Emmanuel Ayarma Jnr
 
 
 
